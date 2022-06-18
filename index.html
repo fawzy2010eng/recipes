@@ -1,0 +1,109 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/index_style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link">chili</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">pizza</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">salad</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">tomato</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">apple</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">avocado</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <header class="vh-100 d-flex flex-wrap align-items-end justify-content-center position-relative">
+
+
+
+    <h1 class="w-100 text-white font-weight-bolder text-center">
+      Never Miss a Recipe!
+    </h1>
+
+    <div class="searchInput w-75 m-auto p-5">
+      <div class="row no-gutters">
+        <div class="col-md-10">
+          <input id="searchInput" placeholder="search recipes" class="form-control" type="text" />
+        </div>
+        <div class="col-md-2">
+          <button id="searchBtn" class="btn btn-block text-white btn-mine">
+            search
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="recipesSearch" class="">
+
+    <div class="wrapper">
+      <div class="sidemenu bg-dark w-25">
+        <div class="card flex-row bg-white pt-5 pb-5" onclick="displayIngrediants()">
+          <div class="card-img w-25 d-flex justify-content-center align-items-center">
+            <img src="images/portfolio-1.jpg" alt="" class="rounded-circle">
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title fs-3">Customization</h5>
+            <p class="card-text fs-5 text-bold">
+              Lorem ipsum dolor sit amet.
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark w-75"></div>
+
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
